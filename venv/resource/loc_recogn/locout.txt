@@ -1,0 +1,15 @@
+郑州	ns	LOC_S
+某	r	O
+一	m	O
+高校	j	O
+中	f	O
+，	v	O
+曾辉祥	n	O
+和	c	O
+马云	n	O
+同时	d	O
+赶往	v	O
+了	u	O
+红十字协会	n	O
+。	n	O
+
