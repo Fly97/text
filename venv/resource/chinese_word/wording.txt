@@ -1,0 +1,8 @@
+中	S	B
+国	S	E
+在	S	S
+航	S	B
+天	S	E
+技	S	B
+术	S	E
+

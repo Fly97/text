@@ -1,0 +1,4 @@
+你	r	r	O	1_v
+真	d	d	O	1_a
+好	a	a	O	0_Root
+
