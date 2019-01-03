@@ -2,7 +2,11 @@ from flask import *
 from Semantic import traindata
 from Semantic import get
 import codecs,json,sys,os
+from flask_cors import CORS
+
 seman = Blueprint('seman', __name__)
+cors = CORS(seman, resources={r"/seman/sentdata": {"origins": "*"}})
+cors = CORS(seman, resources={r"/seman/getdata": {"origins": "*"}})
 
 @seman.route('/sentdata')
 def sentdata():

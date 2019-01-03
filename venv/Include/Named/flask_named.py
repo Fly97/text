@@ -1,10 +1,11 @@
 from flask import *
 from Named import name
 from Named import setdata
-named = Blueprint('named', __name__)
+from flask_cors import CORS
 
-app = Flask(__name__)
-app.config['JSON_AS_ASCII'] = False
+named = Blueprint('named', __name__)
+cors = CORS(named, resources={r"/named/sentdata": {"origins": "*"}})
+cors = CORS(named, resources={r"/named/getdata": {"origins": "*"}})
 
 @named.route('/sentdata',methods=['GET','POST'])                      ##从前端得到数据
 def sentdata():

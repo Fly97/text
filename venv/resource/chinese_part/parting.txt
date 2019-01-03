@@ -1,5 +1,3 @@
-中国	X	ns
 在	X	p
-航天	X	n
-技术	X	n
+吗	X	y
 

@@ -2,10 +2,13 @@ from flask import *
 import codecs,json,sys,os
 from Chinese_Part import tagging
 from Chinese_Part import get
+from flask_cors import CORS
 
 part = Blueprint('part', __name__)
+cors = CORS(part, resources={r"/part/sentdata": {"origins": "*"}})
+cors = CORS(part, resources={r"/part/getdata": {"origins": "*"}})
 
-@part.route('/sentdata',methods=['GET','POST'])                      ##从前端得到数据
+@part.route('/sentdata',methods=['GET','POST'])                 ##从前端得到数据
 def sentdata():
     data = request.get_data()
     json_re = json.loads(data)
