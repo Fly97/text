@@ -1,3 +1,11 @@
-在	X	p
-吗	X	y
+习近	X	v
+平	X	v
+去	X	v
+美国	X	ns
+参加	X	v
+一个	X	m
+里约热内卢	X	n
+的	X	u
+奥	X	j
+运会	X	n
 

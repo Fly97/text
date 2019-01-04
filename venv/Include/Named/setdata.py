@@ -1,6 +1,6 @@
 import codecs,json,sys,os
 def set():         #将以及处理完（命名实体识别）的数据从文件中读出
-    input = codecs.open("..\\resource\\name_recognition\\nameoutput.txt", 'r', 'utf-8')
+    input = codecs.open("../resource/name_recognition/nameoutput.txt", 'r', 'utf-8')
     PER=""
     LOC=""
     ORG=""
@@ -19,10 +19,10 @@ def set():         #将以及处理完（命名实体识别）的数据从文件
                 PER.append(word)
             if tag == "ORG":
                 ORG.append(word)
-    data=[{
+    data={
         'PER': PER,
         'LOC': LOC,
         'ORG': ORG,
-    }]
+    }
     input.close()
     return data

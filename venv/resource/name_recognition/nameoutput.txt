@@ -1,1 +1,1 @@
- PER:卢思童 PER:曾辉祥 LOC:河南 LOC:郑州 ORG:中原工学院 ORG:计算机学院
+ PER:曾辉祥 LOC:美国 LOC:里约热内卢 LOC:奥

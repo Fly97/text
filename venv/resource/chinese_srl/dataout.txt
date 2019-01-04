@@ -1,5 +1,7 @@
-中国	ns	-
-在	p	argm-LOC
-航天	n	argm-LOC
-技术	n	argm-LOC
+曾辉祥	v	V*
+你	r	V*
+去	v	28
+不	d	-
+去	v	-
+上海	ns	-
 

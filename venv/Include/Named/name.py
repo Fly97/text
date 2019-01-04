@@ -14,28 +14,28 @@ def character_split(input_file, output_file):#数据预处理
     output_data.close()
 
 def setname(text):                              #实体识别
-    f = open('..\\..\\resource\\name_recognition\\nameinput.txt', 'w')
+    f = open('../resource/name_recognition/nameinput.txt', 'w')
     f.truncate()
     f.close()
-    filename = '..\\..\\resource\\input_text.txt'
+    filename = '../resource/input_text.txt'
     string = text
     with codecs.open(filename, 'w', 'utf-8') as file_object:
         file_object.write(string)
-    input_file = "..\\..\\resource\\input_text.txt"
-    output_file = "..\\..\\resource\\name_recognition\\test_name.data"
+    input_file = "../resource/input_text.txt"
+    output_file = "../resource/name_recognition/test_name.data"
     character_split(input_file, output_file)
     #print("已生成测试集\n开始进行文本测试")
     path = os.path.abspath(os.path.dirname(os.getcwd()))
-    path = path.replace("\Include", "")
-    path = path + "\\resource\\name_recognition"
+    path = path.replace("/Include", "")
+    path = path + "/resource/name_recognition"
     order = "crf_test -m model_name test_name.data >>nameinput.txt"  # 生成train格式储存到nameinput
-    command = "cd /d " + path + "&&" + order
+    command = "cd " + path + "&&" + order
     os.system(command)
 
 
 def character_word():              #命名实体识别后的数据处理
-    input_data = open("..\\..\\resource\\name_recognition\\nameinput.txt", 'r', encoding='utf-8')
-    output_data = codecs.open("..\\..\\resource\\name_recognition\\nameoutput.txt", 'w', 'utf-8')
+    input_data = open("../resource/name_recognition/nameinput.txt", 'r', encoding='utf-8')
+    output_data = codecs.open("../resource/name_recognition/nameoutput.txt", 'w', 'utf-8')
 
 
     for line in input_data.readlines():

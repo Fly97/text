@@ -11,7 +11,19 @@
     <h1 align="center">crf词性标注</h1>
     <form action="/chinese_crf" method="get">
         请输入文本：<input type="text"  size="40" name="wd">
-        <input type="submit" value="开始">
+        <input type="submit" value="词性标注">
+    </form>
+    <form action="/grammer/getdata" method="get">
+        <input type="submit" value="依存句法">
+    </form>
+    <form action="/named/getdata" method="get">
+        <input type="submit" value="实体识别">
+    </form>
+    <form action="/seman/getdata" method="get">
+        <input type="submit" value="语义决策">
+    </form>
+    <form action="/emotion/getdata" method="get">
+        <input type="submit" value="情感要素">
     </form>
 </body>
 </html>

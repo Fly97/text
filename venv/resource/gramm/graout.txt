@@ -1,4 +1,7 @@
+曾辉祥	v	v	O	0_Root
 你	r	r	O	1_v
-真	d	d	O	1_a
-好	a	a	O	0_Root
+去	v	v	O	1_v
+不	d	d	O	1_v
+去	v	v	O	-1_v
+上海	ns	ns	O	-1_v
 

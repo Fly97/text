@@ -1,3 +1,20 @@
-在	S	S
-吗	S	S
+习	S	B
+近	S	E
+平	S	S
+去	S	S
+美	S	B
+国	S	E
+参	S	B
+加	S	E
+一	S	B
+个	S	E
+里	S	B
+约	S	M
+热	S	M
+内	S	M
+卢	S	E
+的	S	S
+奥	S	S
+运	S	B
+会	S	E
 
