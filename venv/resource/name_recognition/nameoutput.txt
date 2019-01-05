@@ -1,1 +1,1 @@
- PER:曾辉祥 LOC:美国 LOC:里约热内卢 LOC:奥
+ PER:曾辉祥 PER:赵向阳 LOC:北京 ORG:上海参加人民代表大会

@@ -1,11 +1,13 @@
-习近	X	v
-平	X	v
+曾辉祥	X	n
+和	X	c
+赵向阳	X	v
+你	X	r
 去	X	v
-美国	X	ns
+不	X	d
+去	X	v
+北京	X	ns
+和	X	c
+上海	X	ns
 参加	X	v
-一个	X	m
-里约热内卢	X	n
-的	X	u
-奥	X	j
-运会	X	n
+人民代表大会	X	n
 

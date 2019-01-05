@@ -2,45 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e827d09d-38c1-446b-b8ef-2137653d042d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Include/Emotion/get.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zutnlp_text.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zutnlp_text.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Include/Chinese_Part/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Chinese_Part/get.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Include/Chinese_Part/tagging.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Chinese_Part/tagging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Grammer/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Grammer/get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Grammer/gramm.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Grammer/gramm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Grammer/tagging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Named/flask_named.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Named/flask_named.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Named/name.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Named/name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Include/Emotion/flask_emotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Emotion/flask_emotion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Include/Named/setdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Named/setdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Semantic/flask_seman.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Semantic/flask_seman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Semantic/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Semantic/get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Semantic/tagging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/Semantic/traindata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Semantic/traindata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/templates/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/chinese_part/outpart.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_part/outpart.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/chinese_part/parting.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_part/parting.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/chinese_part/test_part.data" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_part/test_part.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/chinese_srl/dataout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_srl/dataout.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/chinese_srl/model_srl" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_srl/model_srl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/chinese_srl/outword.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/chinese_srl/test.data" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_srl/test.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/chinese_srl/test_srl.data" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/chinese_word/outword.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_word/outword.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/chinese_word/test_word.data" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_word/test_word.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/chinese_word/wording.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/chinese_word/wording.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/gramm/graout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/gramm/graout.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/gramm/test.data" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/gramm/test.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/input_text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/input_text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/crf_learn.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/crf_test.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/exec.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/libcrfpp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/locout.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/test.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resource/loc_recogn/train.data" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/name_recognition/nameinput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/name_recognition/nameinput.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/name_recognition/nameoutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/name_recognition/nameoutput.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/resource/name_recognition/test_name.data" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resource/name_recognition/test_name.data" afterDir="false" />
@@ -229,40 +207,41 @@
     <session id="-1641699552">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cfg" value="1" />
-          <entry key="data" value="4" />
-          <entry key="html" value="2" />
-          <entry key="py" value="73" />
-          <entry key="txt" value="10" />
+          <entry key="data" value="7" />
+          <entry key="html" value="4" />
+          <entry key="py" value="111" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="73" />
+          <entry key="HTML" value="4" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Python" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="data" value="1" />
           <entry key="html" value="95" />
-          <entry key="py" value="221" />
+          <entry key="py" value="365" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="95" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="221" />
+          <entry key="Python" value="365" />
         </counts>
       </usages-collector>
     </session>
@@ -271,7 +250,20 @@
     <favorites_list name="zutnlp_text" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/Include/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -295,7 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/venv/Include/flask/duqu.py" />
         <option value="$PROJECT_DIR$/venv/Include/zzzzzzz.py" />
         <option value="$PROJECT_DIR$/venv/Include/serv/ServiceSocket.py" />
         <option value="$PROJECT_DIR$/venv/Include/flask/main.html" />
@@ -326,26 +317,27 @@
         <option value="$PROJECT_DIR$/venv/Include/Chinese_Part/setdata.py" />
         <option value="$PROJECT_DIR$/venv/Include/Emotion/run.py" />
         <option value="$PROJECT_DIR$/venv/Include/Emotion/admin.py" />
-        <option value="$PROJECT_DIR$/venv/Include/Emotion/flask_emotion.py" />
         <option value="$PROJECT_DIR$/venv/Include/Named_Recognition/flask_named.py" />
         <option value="$PROJECT_DIR$/venv/Include/Grammer/tagging.py" />
         <option value="$PROJECT_DIR$/venv/resource/gramm/graout.txt" />
         <option value="$PROJECT_DIR$/venv/Include/Named/name_re.py" />
-        <option value="$PROJECT_DIR$/venv/Include/Chinese_Part/flask_part.py" />
-        <option value="$PROJECT_DIR$/venv/Include/Grammer/flask_grammer.py" />
         <option value="$PROJECT_DIR$/venv/Include/Named/flask_named.py" />
         <option value="$PROJECT_DIR$/venv/resource/chinese_srl/test_srl.data" />
         <option value="$PROJECT_DIR$/venv/Include/Semantic/flask_seman.py" />
         <option value="$PROJECT_DIR$/venv/Include/templates/main.html" />
-        <option value="$PROJECT_DIR$/venv/Include/run.py" />
-        <option value="$PROJECT_DIR$/venv/Include/Chinese_Part/get.py" />
-        <option value="$PROJECT_DIR$/venv/Include/Chinese_Part/tagging.py" />
         <option value="$PROJECT_DIR$/venv/Include/Grammer/get.py" />
         <option value="$PROJECT_DIR$/venv/Include/Grammer/gramm.py" />
-        <option value="$PROJECT_DIR$/venv/Include/Named/setdata.py" />
         <option value="$PROJECT_DIR$/venv/Include/Named/name.py" />
         <option value="$PROJECT_DIR$/venv/Include/Semantic/get.py" />
         <option value="$PROJECT_DIR$/venv/Include/Semantic/traindata.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Chinese_Part/tagging.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Chinese_Part/flask_part.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Chinese_Part/get.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Grammer/flask_grammer.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Named/setdata.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Emotion/flask_emotion.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Emotion/get.py" />
+        <option value="$PROJECT_DIR$/venv/Include/run.py" />
       </list>
     </option>
   </component>
@@ -359,14 +351,13 @@
     <option name="x" value="389" />
     <option name="y" value="6" />
     <option name="width" value="929" />
-    <option name="height" value="1022" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,47 +370,29 @@
               <item name="text" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="text" type="b2602c69:ProjectViewProjectNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="chinese_part" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/project/zutnlp_text" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\pycharm\project\zutnlp_text\templates" />
-      <recent name="D:\pycharm\project\zutnlp_text\venv\Include" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\自然语言处理\text\venv\Include\Emotion" />
       <recent name="E:\text\venv\Include\Semantic" />
       <recent name="E:\text\venv\resource" />
       <recent name="D:\自然语言处理\新建文件夹\text\venv\Include\Named" />
       <recent name="D:\自然语言处理\新建文件夹\text\venv\resource" />
-      <recent name="E:\自然语言处理\新建文件夹\text\venv\Include\Grammer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm\project\zutnlp_text\templates" />
+      <recent name="D:\pycharm\project\zutnlp_text\venv\Include" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -479,28 +452,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="name_re" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="zutnlp_text" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/Named" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\自然语言处理\新建文件夹\text\venv\Include\Named\name.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zutnlp_text" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -515,6 +466,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zutnlp_text" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/Chinese_Part" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/Chinese_Part/tagging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -547,18 +519,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.run (1)" />
-      <item itemvalue="Python.name_re" />
       <item itemvalue="Python.traindata" />
       <item itemvalue="Python.get" />
       <item itemvalue="Python.get (1)" />
+      <item itemvalue="Python.tagging" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.tagging" />
         <item itemvalue="Python.get (1)" />
         <item itemvalue="Python.get" />
         <item itemvalue="Python.traindata" />
-        <item itemvalue="Python.name_re" />
       </list>
     </recent_temporary>
   </component>
@@ -585,21 +557,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9021559" visible="true" weight="0.22544643" />
       <window_info id="Structure" order="1" sideWeight="0.09784412" side_tool="true" weight="0.24626866" />
       <window_info id="Favorites" order="2" sideWeight="0.20327103" side_tool="true" weight="0.21949404" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.073891625" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.1592775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20491803" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.078688525" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.49917898" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.15409836" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.35139573" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -628,25 +601,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Include/templates/tagging.py" />
-    <entry file="file://$PROJECT_DIR$/venv/resource/people.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/serv/ServiceSocket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Chinese_Part/zhx.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/Emotion/user.py" />
     <entry file="file://$PROJECT_DIR$/venv/Include/Emotion/run.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/flask_cors/extension.py">
@@ -675,16 +629,8 @@
     <entry file="file://$PROJECT_DIR$/venv/Include/selfpage.py" />
     <entry file="file://$PROJECT_DIR$/venv/Include/allflask.py" />
     <entry file="file://E:/Anaconda/envs/tensorflow/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_word/wording.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/resource/gramm/app1.py" />
     <entry file="file://$PROJECT_DIR$/venv/resource/gramm/graout.txt___jb_tmp___" />
-    <entry file="file://$PROJECT_DIR$/venv/resource/gramm/test.data" />
     <entry file="file://$PROJECT_DIR$/venv/Include/Grammer/tagging.py" />
     <entry file="file://$PROJECT_DIR$/venv/resource/gramm/graout.txt" />
     <entry file="file://$PROJECT_DIR$/venv/resource/name_recognition/exec.sh">
@@ -700,20 +646,7 @@
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Emotion/flask_emotion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Semantic/tagging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Semantic/tagging.py" />
     <entry file="file://$PROJECT_DIR$/venv/resource/name_recognition/nameoutput.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -730,18 +663,11 @@
     <entry file="file://$PROJECT_DIR$/venv/resource/chinese_srl/wording.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_part/test_part.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_srl/test_srl.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_srl/test_srl.data" />
     <entry file="file://$PROJECT_DIR$/venv/resource/chinese_srl/test.data">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_srl/outword.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_srl/outword.txt" />
     <entry file="file://$PROJECT_DIR$/venv/resource/chinese_srl/dataout.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -749,76 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/templates/chinese.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_part/outpart.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Grammer/flask_grammer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/Named/flask_named.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Grammer/gramm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Grammer/get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Semantic/get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -826,6 +686,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Semantic/flask_seman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/templates/chinese.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/input_text.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_word/wording.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_word/test_word.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_word/outword.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_part/test_part.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_part/parting.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/chinese_part/outpart.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/resource/gramm/test.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Grammer/get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Named/name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-725">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -834,25 +761,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/Named/setdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="-5">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Named/name.py">
+    <entry file="file://$PROJECT_DIR$/venv/Include/Chinese_Part/get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Semantic/get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Emotion/get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Emotion/flask_emotion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Semantic/flask_seman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -861,25 +799,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/Chinese_Part/flask_part.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="200">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Chinese_Part/get.py">
+    <entry file="file://$PROJECT_DIR$/venv/Include/Chinese_Part/tagging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="804">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Chinese_Part/tagging.py">
+    <entry file="file://$PROJECT_DIR$/venv/Include/Grammer/flask_grammer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1329">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        <state relative-caret-position="19">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Grammer/gramm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

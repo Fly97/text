@@ -21,6 +21,7 @@ def setword(text):                                                              
     string = text
     with codecs.open(filename, 'w', 'utf-8') as file_object:
         file_object.write(string)
+    file_object.close()
     input_file = "../resource/input_text.txt"
     output_file = "../resource/chinese_word/test_word.data"
     character_split(input_file, output_file)
@@ -87,10 +88,12 @@ def character_part():                                                           
     inputwort = codecs.open("../resource/chinese_word/outword.txt", 'r', 'utf-8')
     for line in inputwort.readlines():
         print(line)
+    inputwort.close()
     print("词性标注：")
     input = codecs.open("../resource/chinese_part/outpart.txt", 'r', 'utf-8')
     for line in input.readlines():
         print(line)
+    input.close()
 
 def whole(text):
 
