@@ -1,13 +1,7 @@
-曾辉祥	n	ARGM-ADV*
-和	c	4
-赵向阳	v	-
-你	r	ARG1*
-去	v	28
-不	d	V*
+曾辉祥	n	V*
 去	v	-
-北京	ns	ARGM-ADV*
-和	c	*
-上海	ns	ARG1*
-参加	v	V*
-人民代表大会	n	11|(0
+不	d	-
+去	v	-
+打球	v	0
+？	w	-
 

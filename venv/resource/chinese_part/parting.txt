@@ -1,13 +1,11 @@
-曾辉祥	X	n
+安徽	X	ns
+国际化	X	v
+的	X	u
+时光	X	n
+华盛顿	X	ns
 和	X	c
-赵向阳	X	v
-你	X	r
-去	X	v
-不	X	d
-去	X	v
-北京	X	ns
-和	X	c
-上海	X	ns
-参加	X	v
-人民代表大会	X	n
+蒋介石	X	nr
+把	X	p
+v	X	n
+在	X	v
 

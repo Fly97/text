@@ -1,13 +1,7 @@
 曾辉祥	n	n	O	1_v
-和	c	c	O	-1_n
-赵向阳	v	v	O	0_Root
-你	r	r	O	1_v
-去	v	v	O	1_v
+去	v	v	O	0_Root
 不	d	d	O	1_v
-去	v	v	O	-1_v
-北京	ns	ns	O	-1_v
-和	c	c	O	-1_v
-上海	ns	ns	O	1_v
-参加	v	v	O	2_n
-人民代表大会	n	n	O	-1_v
+去	v	v	O	0_Root
+打球	v	v	O	-1_v
+？	w	w	O	-1_v
 
