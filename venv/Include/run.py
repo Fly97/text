@@ -1,7 +1,8 @@
 from flask import *
 import codecs,json,sys,os
-from Chinese_Part import get
+from Chinese_Part import get_part
 from Chinese_Part import tagging
+
 from Chinese_Part import flask_part
 from Emotion import flask_emotion
 from Named import flask_named
@@ -28,7 +29,7 @@ def index():
 def chinese_crf():
     text=request.args.get("wd")
     tagging.whole(text)
-    data = json.dumps(get.getdata(), ensure_ascii=False)
+    data = json.dumps(get_part.getdata(), ensure_ascii=False)
     return data
 
 @app.errorhandler(500)
@@ -38,3 +39,4 @@ def error(e):
 if __name__ == '__main__':
     print(app.url_map)
     app.run(port=8888, debug=True,host='0.0.0.0')
+    # app.run(port=4444, debug=True)

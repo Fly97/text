@@ -1,7 +1,7 @@
 from flask import *
 import codecs,json,sys,os
 from Named import name
-from Named import setdata
+from Named import get_name
 from flask_cors import CORS
 
 named = Blueprint('named', __name__)
@@ -18,5 +18,5 @@ def sentdata():
 
 @named.route('/getdata',methods=['GET','POST'])                       ##将数据从后端传到前端
 def getdata():
-    data = json.dumps(setdata.set(), ensure_ascii=False)
+    data = json.dumps(get_name.sett(), ensure_ascii=False)
     return data

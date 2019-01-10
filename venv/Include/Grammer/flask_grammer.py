@@ -1,7 +1,7 @@
 from flask import *
 import codecs,json,sys,os
 from Grammer import gramm
-from Grammer import get
+from Grammer import get_gramm
 from flask_cors import CORS
 
 grammer = Blueprint('grammer', __name__)
@@ -18,6 +18,6 @@ def sentdata():
 
 @grammer.route('/getdata',methods=['GET','POST'])                       ##将数据从后端传到前端
 def getdata():
-    data = json.dumps(get.getdata(), ensure_ascii=False)
+    data = json.dumps(get_gramm.getdata(), ensure_ascii=False)
     return data
 

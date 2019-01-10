@@ -1,6 +1,6 @@
 from flask import *
 import codecs,json,sys,os
-from Emotion import get
+from Emotion import get_emotion
 from flask_cors import CORS
 
 emotion = Blueprint('emotion', __name__)
@@ -17,5 +17,5 @@ def sentdata():
 
 @emotion.route('/getdata',methods=['GET','POST'])                       ##将数据从后端传到前端
 def getdata():
-    data = json.dumps(get.getdata(), ensure_ascii=False)
+    data = json.dumps(get_emotion.getdata(), ensure_ascii=False)
     return data

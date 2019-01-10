@@ -1,6 +1,6 @@
 from flask import *
 from Semantic import traindata
-from Semantic import get
+from Semantic import get_seman
 import codecs,json,sys,os
 from flask_cors import CORS
 
@@ -18,5 +18,5 @@ def sentdata():
 
 @seman.route('/getdata',methods=['GET','POST'])
 def getdata():
-    data = json.dumps(get.getdata(), ensure_ascii=False)
+    data = json.dumps(get_seman.getdata(), ensure_ascii=False)
     return data

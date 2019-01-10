@@ -1,7 +1,7 @@
 from flask import *
 import codecs,json,sys,os
 from Chinese_Part import tagging
-from Chinese_Part import get
+from Chinese_Part import get_part
 from flask_cors import CORS
 
 part = Blueprint('part', __name__)
@@ -18,6 +18,6 @@ def sentdata():
 
 @part.route('/getdata',methods=['GET','POST'])                       ##将数据从后端传到前端
 def getdata():
-    data = json.dumps(get.getdata(), ensure_ascii=False)
+    data = json.dumps(get_part.getdata(), ensure_ascii=False)
     return data
 
