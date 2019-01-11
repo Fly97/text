@@ -6,7 +6,7 @@ from Chinese_Part import tagging
 
 
 def settest():
-    f = open('../resource/gramm/graout.txt', 'w')
+    f = open('../../resource/gramm/graout.txt', 'w')
     f.truncate()
     f.close()
     path = os.path.abspath(os.path.dirname(os.getcwd()))
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     path = os.path.abspath(os.path.dirname(os.getcwd()))
     path = path.replace("/Include", "")
     path = path + "/resource/gramm/graout.txt"
-    whole()
+    whole("今天天气真好")
     input = codecs.open(path, 'r', 'utf-8')
     for line in input.readlines():
         print(line)

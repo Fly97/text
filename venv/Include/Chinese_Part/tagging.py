@@ -13,6 +13,8 @@ def character_split(input_file, output_file):                               ##�
     input_data.close()
     output_data.close()
 
+
+
 def setword(text):                                                                          ##中文分词
     f = open('../resource/chinese_word/wording.txt', 'w')
     f.truncate()

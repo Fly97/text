@@ -1,23 +1,14 @@
 import codecs,json,sys,os
 def getdata():         #将以及处理完（词性标注）的数据从文件中读出
-    # input = codecs.open("../resource/chinese_part/outpart.txt", 'r', 'utf-8')
-    # words=""
-    # parts=""
-    # text=""
-    # for line in input.readlines():
-    #     strs=line.strip().split()
-    #     for str in strs:
-    #         st=str.strip().split('/')
-    #         words = words + st[0] + ','
-    #         parts = parts + st[1] + ','
-    # data=[{
-    #     'words': words,
-    #     'parts': parts,
-    #     'text': text,
-    # }]
-    # input.close()
+    input = codecs.open("../resource/emotion/out.txt", 'r', 'utf-8')
+    str=input.read()
+    emotion=""
+    if str=='1':
+        emotion="positive"
+    else:
+        emotion="negative"
     data=[{
-        'words': "",
-        'weight': "",
+        'sign': str,
+        'emotion': emotion,
     }]
     return data

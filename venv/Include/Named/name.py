@@ -9,7 +9,7 @@ def character_split(input_file, output_file):#数据预处理
         for word in line.strip():
             word = word.strip()
             if word:
-                output_data.write(word + "\t0\n")
+                output_data.write(word + "\tB\n")
     input_data.close()
     output_data.close()
 

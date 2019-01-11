@@ -1,7 +1,16 @@
-爱神	i	i	O	-1_r
-的	u	u	O	-1_r
-箭	n	n	O	1_v
-把	v	v	O	0_Root
-解决	v	v	O	-1_v
-吧	y	y	O	-2_v
+今天	t	t	O	1_v
+曾辉祥	n	n	O	1_v
+要	v	v	O	1_v
+去	v	v	O	-1_v
+北京	ns	ns	O	-1_v
+参加	v	v	O	2_n
+人民代表大会	n	n	O	-1_v
+，	n	n	O	1_v
+今天	t	t	O	1_v
+曾辉祥	d	d	O	1_v
+要	v	v	O	1_v
+去	v	v	O	0_Root
+北京	ns	ns	O	-1_v
+参加	v	v	O	2_n
+人民代表大会	n	n	O	-1_v
 

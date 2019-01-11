@@ -27,7 +27,6 @@ def getdata():         #将以及处理完（词性标注）的数据从文件�
         if roles[i]==tag:
             w=w+words[i]+"/"
         else:
-
             #
             if tag=="ARGM-TMP":
                 tag1="时间"
