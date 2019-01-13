@@ -7,7 +7,8 @@ from keras.models import load_model
 import ast
 import  codecs
 from keras import backend as K
-K.clear_session()
+
+
 # pos = pd.read_excel('pos.xls', header=None)
 # pos['label'] = 1
 # neg = pd.read_excel('neg.xls', header=None)
@@ -102,7 +103,7 @@ from keras.layers import LSTM
 
 def doc2num(s, maxlen):
     min_count = 5  # 出现次数少于该值的词扔掉。这是最简单的降维方法
-    file_object = open('../../resource/emotion/cont.txt', encoding='UTF-8')
+    file_object = open('../resource/emotion/cont.txt')
     list_str = file_object.read()
     file_object.close()
     content = ast.literal_eval(list_str)
@@ -117,13 +118,16 @@ def doc2num(s, maxlen):
 
 def predict_one(s): #单个句子的预测函数
     maxlen = 100  # 截断词数
+    K.clear_session()
     model = load_model('../resource/emotion/model')
     s = np.array(doc2num(list(jieba.cut(s)), maxlen))
     s = s.reshape((1, s.shape[0]))
     output = codecs.open('../resource/emotion/out.txt', 'w', 'utf-8')
     output.write(str(model.predict_classes(s)[0][0]))
     output.close()
+    return
     # return model.predict_classes(s)[0][0]
 
 # print("情感分析",predict_one("马碧的牛根生坑爹，这包装一不小心就买错蒙牛了。我是扔呢还是扔呢？"))
+
 

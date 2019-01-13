@@ -38,5 +38,5 @@ def error(e):
 
 if __name__ == '__main__':
     print(app.url_map)
-    # app.run(port=8888, debug=True,host='0.0.0.0')
-    app.run(port=4444, debug=True)
+    app.run(port=8888, debug=True,host='0.0.0.0')
+    #app.run(port=4444, debug=True)

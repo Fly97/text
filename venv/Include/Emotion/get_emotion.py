@@ -7,6 +7,7 @@ def getdata():         #将以及处理完（词性标注）的数据从文件�
         emotion="positive"
     else:
         emotion="negative"
+    input.close()
     data=[{
         'sign': str,
         'emotion': emotion,

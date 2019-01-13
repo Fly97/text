@@ -10,6 +10,7 @@ cors = CORS(emotion, resources={r"/emotion/getdata": {"origins": "*"}})
 
 @emotion.route('/sentdata',methods=['GET','POST'])                 ##从前端得到数据
 def sentdata():
+    print("come here_emotiom-flask")
     data = request.get_data()
     json_re = json.loads(data)
     print(json_re["text"])

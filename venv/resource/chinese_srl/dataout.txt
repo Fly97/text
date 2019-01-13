@@ -1,16 +1,6 @@
-今天	t	-
-曾辉祥	n	-
-要	v	ARGM-PRP
-去	v	ARGM-PRP
-北京	ns	ARGM-DIS
-参加	v	-
-人民代表大会	n	ARG0
-，	n	ARG2
-今天	t	-
-曾辉祥	d	-
-要	v	ARGM-PRP
-去	v	ARGM-PRP
-北京	ns	ARGM-DIS
-参加	v	-
-人民代表大会	n	-
+江西	ns	ARG0
+是	v	V
+个	q	ARGM-DIS
+好	a	ARGM-EXT
+地方	n	-
 
